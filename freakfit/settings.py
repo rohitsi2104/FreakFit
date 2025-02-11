@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)6stza4tma5t=33a=x3bj77+bt&*auvk58m9h!rj$*c7e&+u79
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', 'localhost', '127.0.0.1', 'freakfithub.in']
+ALLOWED_HOSTS = ['.vercel.app', 'www.freakfithub.in', 'localhost', '127.0.0.1']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
