@@ -300,13 +300,18 @@ ol {
 	z-index: 99;
 }
 
-.logo a {
-	display: inline-block;
-	height:40vh;
-	width: 40vh;
+.logo {
+    position: absolute;  /* Ensures it stays in the left corner */
+    top: 5px;  /* Adjust spacing from the top */
+    left: 5px;  /* Keeps it aligned to the left */
 }
 
-  
+.logo a {
+    display: block;
+    width: 40vh;  /* Default size */
+    height: 40vh;
+}
+
 
 
 .nav-menu {
@@ -2771,6 +2776,10 @@ ol {
 		height: auto;
 		padding: 120px 70px 60px 70px;
 	}
+	    .logo a {
+        width: 30vh;
+        height: 30vh;
+    }
 	.blog-section .sidebar-option {
 		padding-left: 0;
 	}
@@ -3092,6 +3101,10 @@ ol {
 	.nav-menu {
 		display: none;
 	}
+	    .logo a {
+        width: 20vh;
+        height: 20vh;
+    }
 	.top-option {
 		display: none;
 	}
