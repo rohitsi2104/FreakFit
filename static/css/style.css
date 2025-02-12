@@ -300,10 +300,16 @@ ol {
 	z-index: 99;
 }
 
+.logo {
+    position: absolute;  /* Ensures it stays in the left corner */
+    top: 5px;  /* Adjust spacing from the top */
+    left: 5px;  /* Keeps it aligned to the left */
+} 
+
 .logo a {
-	display: inline-block;
-	height:40h;
-	width: 40vh;
+    display: block;
+    width: 40vh;  /* Default size */
+    height: 40vh;
 }
 
   
@@ -2771,6 +2777,10 @@ ol {
 		height: auto;
 		padding: 120px 70px 60px 70px;
 	}
+	.logo a {
+        width: 30vh;
+        height: 30vh;
+    }
 	.blog-section .sidebar-option {
 		padding-left: 0;
 	}
@@ -3089,6 +3099,10 @@ ol {
 		background: transparent;
 		color: #F14624;
 	}
+	.logo a {
+        width: 20vh;
+        height: 20vh;
+    }
 	.nav-menu {
 		display: none;
 	}
