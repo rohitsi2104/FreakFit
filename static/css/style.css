@@ -304,7 +304,7 @@ ol {
     position: absolute;  /* Ensures it stays in the left corner */
     top: 5px;  /* Adjust spacing from the top */
     left: 5px;  /* Keeps it aligned to the left */
-}
+} 
 
 .logo a {
     display: block;
